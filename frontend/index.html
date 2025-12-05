@@ -1,0 +1,13 @@
+<html>
+   <body>
+     <h2>Frontend Container</h2>
+     <p id="msg">Loading....</p>
+     <script>
+       fetch("http://localhost:5000/")
+	 .then(response => response.json())
+	 .then(data => {
+			   document.getElementById("msg").innerText= data.message;
+		       });
+     </script>
+   </body>
+</html>
