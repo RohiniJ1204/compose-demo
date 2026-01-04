@@ -13,3 +13,6 @@ The application was developed and tested locally and later **deployed on an AWS 
 - Backend: Flask
 - Frontend: HTML
    
+## Live Deployment (AWS EC2)
+Backend: http://3.110.19.87:5000
+Frontend: http://3.110.19.87:9090
